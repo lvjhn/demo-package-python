@@ -1,6 +1,6 @@
 # DEMO-PACKAGE-PYTHON 
-This is a sample package which follows the instructions 
-for publishing a Python package to PyPI. 
+This sample package follows the instructions 
+for publishing a Python package in PyPI. 
 
 This repository can be used as a template for building packages. 
 See section `Reusing as Template` for more info on how.
@@ -21,20 +21,19 @@ Full instructions for publishing a Python package using
 PyPI can be found here: 
 https://packaging.python.org/en/latest/tutorials/packaging-projects/
 
-I made a `tinyurl.com` shortlinks for the 
+I made a `tinyurl.com` short-link for the 
 tutorial link above:
 
 https://tinyurl.com/how-to-package-python
 
-If you want, you can include the links above to your
-bookmarks.
+If you want, you can include the links above in your bookmarks.
 
 ## Summarized/Compact Instructions 
-In summary the insructions can be divided into the outline below
-if you don't feel clicking the tutorial link again and again.
+In summary, the instructions can be divided into the outline below
+if you don't feel like clicking the tutorial link again and again.
 
 Full instructions can be found in the tutorials above in case 
-the summary doesn't still help in recall.
+the summary doesn't still help in recalling the procedures.
 
 1. Creating a package 
     1. Create package files (see code structure below for an example)
@@ -127,7 +126,7 @@ If you intend to reuse this package as a template for future package projects, u
 
 1. Rename `src/demo_package_python` to `src/[your_project_name]` 
 
-1. Make sure your have `virtualenv` installed and then run the following
+1. Make sure that your have `virtualenv` installed and then run the following
     ```
         virtualenv env 
     ```
@@ -139,11 +138,11 @@ If you intend to reuse this package as a template for future package projects, u
 1. Activate virtual environment
     `source env/bin/activate` 
 
-1. Run from command line:
+1. Run from the command line:
     ```
     bash utils/setup.sh
     ```
 
 1. Use the following commands to simplify routines: 
     1. `bash utils/build.sh` - to build project
-    1. `bash utils/publish.sh` - to upload project
+    1. `bash utils/publish.sh` - to upload the project

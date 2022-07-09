@@ -1,8 +1,8 @@
 [project]
 name = "demo_package_python" 
-version = "0.0.12"
+version = "0.0.14"
 authors = [
-    { name = "Example"}
+    { name = "LJ. Sta. Ana", email = "lvjhn.mx@gmail.com"}
 ]
 description = "This is a sample package which follows the instructions for publishing a Python package to PyPI."
 readme = "README.md"
