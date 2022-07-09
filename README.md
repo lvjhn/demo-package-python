@@ -103,7 +103,7 @@ To use this package:
 
 Then: 
 ```js
-import demo_package
+import demo_package_python as demo_package
 
 print(".sayHello() => " + demo_package.say_hello_world()) 
 print(".sayHi('John') => " + demo_package.say_hi('John'))
