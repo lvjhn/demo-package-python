@@ -127,13 +127,22 @@ If you intend to reuse this package as a template for future package projects, u
 
 1. Rename `src/demo_package_python` to `src/[your_project_name]` 
 
-1. Run from command line:
+1. Make sure your have `virtualenv` installed and then run the following
     ```
-    bash utils/setup.sh
+        virtualenv env 
+    ```
+    or 
+    ```
+        python3 -m venv env
     ```
 
 1. Activate virtual environment
     `source env/bin/activate` 
+
+1. Run from command line:
+    ```
+    bash utils/setup.sh
+    ```
 
 1. Use the following commands to simplify routines: 
     1. `bash utils/build.sh` - to build project
