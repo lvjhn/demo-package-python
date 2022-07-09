@@ -40,7 +40,7 @@ the summary doesn't still help in recall.
     1. Create package files (see code structure below for an example)
     1. Create `test/` directory
     1. Create `pyproject.toml` with the necessary `[build-system]`, `[project]`, and `[project.urls]` options
-    1. Configure metadata of project. Common metadata are show below. For a more thorough example, see `pyproject.toml`
+    1. Configure metadata of project. Common metadata are shown below. For a more thorough example, see `pyproject.toml`
         1. name 
         1. version
         1. authors (must be in array format)
