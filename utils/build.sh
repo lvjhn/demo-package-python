@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "Activating virtual environment" & 
+source env/bin/activate &
 echo "Obtaining requirements list." &&
 pip freeze > requirements.txt &&
 echo "Generating pyproject.toml." &&
