@@ -155,6 +155,8 @@ If you intend to reuse this package as a template for future package projects, u
     ```
     source env/bin/activate
     ``` 
+    > Make sure that the virtual environment is activated
+    before running the succeeding commands.
 
 1. Run from the command line:
     ```
