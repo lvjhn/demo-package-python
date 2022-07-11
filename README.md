@@ -122,10 +122,20 @@ If you intend to reuse this package as a template for future package projects, u
 
 1. Edit `pyproject.toml` to match your project description.
 
-1. Remove contents of `src/demo_package_python` 
+1. Remove contents of `src/demo_package_python`  
+    ```
+    rm -rf src/demo_package_python
+    ```
+
+1. Create `__init__.py` in `src/demo_package_python`
+    ```
+    touch src/demo_package_python
+    ```
 
 1. Rename `src/demo_package_python` to `src/[your_project_name]` 
-
+    ```
+    mv src/demo_package_python src/[your_package_name]
+    ```
 1. Make sure that your have `virtualenv` installed and then run the following
     ```
         virtualenv env 
