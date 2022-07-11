@@ -37,7 +37,7 @@ the summary doesn't still help in recalling the procedures.
 
 1. Creating a package 
     1. Create package files (see code structure below for an example)
-    1. Create `test/` directory
+    1. Create `tests/` directory
     1. Create `pyproject.toml` with the necessary `[build-system]`, `[project]`, and `[project.urls]` options
     1. Configure metadata of project. Common metadata are shown below. For a more thorough example, see `pyproject.toml`
         1. name 
@@ -125,7 +125,7 @@ If you intend to reuse this package as a template for future package projects, u
       edit `pyproject.toml` instead. 
 
     > The file `pyproject.toml` is 
-      automatically built from `pyproject.dev.toml` by adding dependencies list 
+      automatically built from `pyproject.dev.toml` by adding the dependencies list 
       in `requirements.txt` before building.  
 
 1. Remove contents of `src/demo_package_python`  
