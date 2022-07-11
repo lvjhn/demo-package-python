@@ -154,5 +154,5 @@ If you intend to reuse this package as a template for future package projects, u
     ```
 
 1. Use the following commands to simplify routines: 
-    1. `bash utils/build.sh` - to build project
+    1. `bash utils/build.sh` - to build project (make sure to update `project.version` in `pyproject.dev.toml` before building)
     1. `bash utils/publish.sh` - to upload the project
