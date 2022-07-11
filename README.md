@@ -130,12 +130,12 @@ If you intend to reuse this package as a template for future package projects, u
 
 1. Remove contents of `src/demo_package_python`  
     ```
-    rm -rf src/demo_package_python
+    rm -rf src/demo_package_python/*
     ```
 
 1. Create `__init__.py` in `src/demo_package_python`
     ```
-    touch src/demo_package_python
+    touch src/demo_package_python/__init__.py
     ```
 
 1. Rename `src/demo_package_python` to `src/[your_project_name]` 
@@ -152,7 +152,9 @@ If you intend to reuse this package as a template for future package projects, u
     ```
 
 1. Activate virtual environment
-    `source env/bin/activate` 
+    ```
+        source env/bin/activate
+    ``` 
 
 1. Run from the command line:
     ```
