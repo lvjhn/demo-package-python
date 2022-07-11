@@ -144,16 +144,16 @@ If you intend to reuse this package as a template for future package projects, u
     ```
 1. Make sure that your have `virtualenv` installed and then run the following
     ```
-        virtualenv env 
+    virtualenv env 
     ```
     or 
     ```
-        python3 -m venv env
+    python3 -m venv env
     ```
 
 1. Activate virtual environment
     ```
-        source env/bin/activate
+    source env/bin/activate
     ``` 
 
 1. Run from the command line:
