@@ -162,7 +162,9 @@ If you intend to reuse this package as a template for future package projects, u
     ```
     bash utils/setup.sh
     ```
+    > This command should install the packages on the `env/` folder and not on the default location.
 
 1. Use the following commands to simplify routines: 
     1. `bash utils/build.sh` - to build project (make sure to update `project.version` in `pyproject.dev.toml` before building)
     1. `bash utils/publish.sh` - to upload the project
+
