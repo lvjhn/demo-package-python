@@ -120,7 +120,13 @@ If you intend to reuse this package as a template for future package projects, u
 
 1. `git clone https://gitlab.com/demo-package/demo-package-python.git`
 
-1. Edit `pyproject.toml` to match your project description.
+1. Edit `pyproject.dev.toml` to match your project description. 
+    > Make sure to edit the right file, you might accidentally 
+      edit `pyproject.toml` instead. 
+
+    > The file `pyproject.toml` is 
+      automatically built from `pyproject.dev.toml` by adding dependencies list 
+      in `requirements.txt` before building.  
 
 1. Remove contents of `src/demo_package_python`  
     ```
