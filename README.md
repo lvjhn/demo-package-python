@@ -164,7 +164,15 @@ If you intend to reuse this package as a template for future package projects, u
     ```
     > This command should install the packages on the `env/` folder and not on the default location.
 
-1. Use the following commands to simplify routines: 
-    1. `bash utils/build.sh` - to build project (make sure to update `project.version` in `pyproject.dev.toml` before building)
-    1. `bash utils/publish.sh` - to upload the project
+1. Use the following commands to simplify building and publishing routines: 
+    > Make sure to run the following commands in the virtual environment mode by running `source env/bin/activate` if you haven't yet.
+    1. To Build Project 
+        ```
+        bash utils/build.sh
+        ```
+    1. To Publish Project 
+        ```
+        bash utils/publish.sh
+        ```
+
 
