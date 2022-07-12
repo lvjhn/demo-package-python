@@ -52,9 +52,9 @@ the summary doesn't still help in recalling the procedures.
     1. Create `LICENSE` file
 1. Generating distribution archives 
     1. Step 1: Install `build` package 
-    ```
-    python3 -m pip install --upgrade build`
-    ``` 
+        ```
+        python3 -m pip install --upgrade build`
+        ``` 
     1. Step 2: Run `python3 -m build` on the first build and successive build updates for different versions.
         * Generates a `dist/` folder for the built package
         * Puts a `.whl` and `.tar.gz` file in the dist folder for the current version.
