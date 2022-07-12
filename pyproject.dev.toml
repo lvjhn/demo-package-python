@@ -1,6 +1,6 @@
 [project]
 name = "demo_package_python" 
-version = "0.0.21"
+version = "0.0.22"
 authors = [
     { name = "LJ. Sta. Ana", email = "lvjhn.mx@gmail.com"}
 ]

@@ -118,8 +118,14 @@ It should return the following:
 ## Reusing as Template
 If you intend to reuse this package as a template for future package projects, use the following command: 
 
-1. `git clone https://gitlab.com/demo-package/demo-package-python.git`
-
+1. Clone the project 
+    ```
+    git clone https://gitlab.com/demo-package/demo-package-python.git [your_project]
+    ``` 
+1. Go to your project directory 
+    ```
+    cd [your_project]
+    ```
 1. Edit `pyproject.dev.toml` to match your project description. 
     > Make sure to edit the right file, you might accidentally 
       edit `pyproject.toml` instead. 
