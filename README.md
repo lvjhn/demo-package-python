@@ -120,7 +120,7 @@ If you intend to reuse this package as a template for future package projects, u
 
 1. Clone the project 
     ```
-    git clone https://gitlab.com/demo-package/demo-package-python.git [your_project]
+    git clone https://github.com/lvjhn/demo-package-python [your_project]
     ``` 
 1. Go to your project directory 
     ```
